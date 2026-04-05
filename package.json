@@ -1,6 +1,6 @@
 {
   "name": "aiclientjs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The lightweight, universal AI client for JavaScript & TypeScript. Zero dependencies. Works everywhere.",
   "type": "module",
   "main": "./dist/index.cjs",
