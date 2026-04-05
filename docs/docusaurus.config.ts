@@ -12,10 +12,10 @@ const config: Config = {
   },
 
   url: 'https://amit641.github.io',
-  baseUrl: '/aiclient/',
+  baseUrl: '/aiclientjs/',
 
   organizationName: 'amit641',
-  projectName: 'aiclient',
+  projectName: 'aiclientjs',
 
   onBrokenLinks: 'throw',
 
@@ -31,7 +31,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
-          editUrl: 'https://github.com/amit641/aiclient/tree/main/docs/',
+          editUrl: 'https://github.com/amit641/aiclientjs/tree/main/docs/',
         },
         blog: false,
         theme: {
@@ -60,7 +60,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/amit641/aiclient',
+          href: 'https://github.com/amit641/aiclientjs',
           label: 'GitHub',
           position: 'right',
         },
@@ -81,7 +81,7 @@ const config: Config = {
         {
           title: 'Links',
           items: [
-            { label: 'GitHub', href: 'https://github.com/amit641/aiclient' },
+            { label: 'GitHub', href: 'https://github.com/amit641/aiclientjs' },
             { label: 'npm', href: 'https://www.npmjs.com/package/aiclientjs' },
           ],
         },

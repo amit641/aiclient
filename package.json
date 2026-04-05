@@ -1,6 +1,6 @@
 {
   "name": "aiclientjs",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "The lightweight, universal AI client for JavaScript & TypeScript. Zero dependencies. Works everywhere.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -58,13 +58,13 @@
   ],
   "author": "",
   "license": "MIT",
-  "homepage": "https://amit641.github.io/aiclient/",
+  "homepage": "https://amit641.github.io/aiclientjs/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amit641/aiclient.git"
+    "url": "https://github.com/amit641/aiclientjs.git"
   },
   "bugs": {
-    "url": "https://github.com/amit641/aiclient/issues"
+    "url": "https://github.com/amit641/aiclientjs/issues"
   },
   "engines": {
     "node": ">=18.0.0"

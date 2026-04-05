@@ -7,12 +7,12 @@
     One function. Any model. Zero dependencies.
   </p>
   <p align="center">
-    <a href="https://amit641.github.io/aiclient/">Docs</a> · <a href="#install">Install</a> · <a href="#quickstart">Quickstart</a> · <a href="#providers">Providers</a> · <a href="#streaming">Streaming</a> · <a href="#structured-output">Structured Output</a> · <a href="#tool-calling">Tool Calling</a>
+    <a href="https://amit641.github.io/aiclientjs/">Docs</a> · <a href="#install">Install</a> · <a href="#quickstart">Quickstart</a> · <a href="#providers">Providers</a> · <a href="#streaming">Streaming</a> · <a href="#structured-output">Structured Output</a> · <a href="#tool-calling">Tool Calling</a>
   </p>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amit641/aiclient/main/assets/demo.gif" alt="aiclientjs demo" width="700" />
+  <img src="https://raw.githubusercontent.com/amit641/aiclientjs/main/assets/demo.gif" alt="aiclientjs demo" width="700" />
 </p>
 
 ---
@@ -31,9 +31,9 @@ That's it. No boilerplate. No framework lock-in. Works everywhere.
 
 ---
 
-## Why aiclient?
+## Why aiclientjs?
 
-| | aiclient | Vercel AI SDK | Direct API calls |
+| | aiclientjs | Vercel AI SDK | Direct API calls |
 |---|---|---|---|
 | **Bundle size** | ~8 KB gzipped | ~150 KB+ | N/A |
 | **Dependencies** | 0 | 20+ | varies |
@@ -143,11 +143,11 @@ const res = await ai('List 5 colors', {
 console.log(res.data.colors); // inferred as string[]
 ```
 
-aiclient detects Zod schemas automatically — no plugins, no adapters, no `zodToJsonSchema` calls.
+aiclientjs detects Zod schemas automatically — no plugins, no adapters, no `zodToJsonSchema` calls.
 
 ## Tool Calling
 
-Define tools with execute handlers and aiclient runs them automatically.
+Define tools with execute handlers and aiclientjs runs them automatically.
 
 ```typescript
 const res = await ai('What is the weather in London?', {
