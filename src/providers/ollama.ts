@@ -57,6 +57,14 @@ export class OllamaProvider extends BaseProvider {
 
     if (request.responseFormat) {
       body['format'] = 'json';
+      // Ollama needs explicit instruction in messages to output JSON
+      const schemaHint = JSON.stringify(request.responseFormat.jsonSchema.schema);
+      const jsonInstruction = {
+        role: 'system',
+        content: `Respond ONLY with a valid JSON object. The JSON must match this schema: ${schemaHint}. Do not include any explanation, markdown, or text outside the JSON.`,
+      };
+      const messages = body['messages'] as Record<string, unknown>[];
+      messages.unshift(jsonInstruction);
     }
 
     return body;

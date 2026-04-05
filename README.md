@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">aiclient</h1>
+  <h1 align="center">aiclientjs</h1>
   <p align="center">
     <strong>The lightweight, universal AI client for JavaScript & TypeScript.</strong>
   </p>
@@ -11,14 +11,18 @@
   </p>
 </p>
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="aiclientjs demo" width="700" />
+</p>
+
 ---
 
 ```bash
-npm install aiclient
+npm install aiclientjs
 ```
 
 ```typescript
-import { ai } from 'aiclient';
+import { ai } from 'aiclientjs';
 
 const { text } = await ai('Explain quantum computing in one sentence');
 ```
@@ -42,10 +46,10 @@ That's it. No boilerplate. No framework lock-in. Works everywhere.
 ## Install
 
 ```bash
-npm install aiclient    # npm
-pnpm add aiclient       # pnpm
-yarn add aiclient       # yarn
-bun add aiclient        # bun
+npm install aiclientjs    # npm
+pnpm add aiclientjs       # pnpm
+yarn add aiclientjs       # yarn
+bun add aiclientjs        # bun
 ```
 
 ## Quickstart
@@ -63,7 +67,7 @@ export GOOGLE_API_KEY=AI...
 ### 2. Call any model
 
 ```typescript
-import { ai } from 'aiclient';
+import { ai } from 'aiclientjs';
 
 // OpenAI (default)
 const res = await ai('Hello!');
@@ -173,7 +177,7 @@ console.log(res.toolResults); // [{ toolName: 'getWeather', result: { temp: 15 }
 Create reusable clients with `createAIClient`:
 
 ```typescript
-import { createAIClient } from 'aiclient';
+import { createAIClient } from 'aiclientjs';
 
 const gpt = createAIClient({
   provider: 'openai',
@@ -230,7 +234,7 @@ const res = await ai('Hello', {
 Register your own provider:
 
 ```typescript
-import { registerProvider } from 'aiclient';
+import { registerProvider } from 'aiclientjs';
 
 registerProvider('my-provider', {
   name: 'my-provider',
@@ -278,7 +282,7 @@ const res = await ai('Write a very long essay', {
 ## Error Handling
 
 ```typescript
-import { ai, AIError } from 'aiclient';
+import { ai, AIError } from 'aiclientjs';
 
 try {
   const res = await ai('Hello');

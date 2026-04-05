@@ -1,5 +1,5 @@
 {
-  "name": "aiclient",
+  "name": "aiclientjs",
   "version": "0.1.0",
   "description": "The lightweight, universal AI client for JavaScript & TypeScript. Zero dependencies. Works everywhere.",
   "type": "module",
