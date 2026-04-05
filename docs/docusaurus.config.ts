@@ -62,6 +62,10 @@ const config: Config = {
       tagName: 'meta',
       attributes: { name: 'twitter:description', content: 'Call any LLM with one function. Zero dependencies. OpenAI, Anthropic, Google, Ollama.' },
     },
+    {
+      tagName: 'meta',
+      attributes: { name: 'google-site-verification', content: 'pX4FkYybN5DcahiMv-TLXFKjgI277ld0HxGFbZAJR8Y' },
+    },
   ],
 
   i18n: {
