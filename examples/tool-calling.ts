@@ -1,4 +1,4 @@
-import { ai } from 'aiclient';
+import { ai } from 'aiclientjs';
 
 const response = await ai('What is the weather in London and Tokyo?', {
   tools: {

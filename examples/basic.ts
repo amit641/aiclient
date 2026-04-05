@@ -1,4 +1,4 @@
-import { ai } from 'aiclient';
+import { ai } from 'aiclientjs';
 
 // Simple text completion (uses OPENAI_API_KEY env var by default)
 const response = await ai('Explain quantum computing in one sentence');

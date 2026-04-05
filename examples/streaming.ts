@@ -1,4 +1,4 @@
-import { ai } from 'aiclient';
+import { ai } from 'aiclientjs';
 
 // Stream tokens as they arrive
 const stream = await ai('Write a short poem about TypeScript', {

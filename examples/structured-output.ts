@@ -1,4 +1,4 @@
-import { ai } from 'aiclient';
+import { ai } from 'aiclientjs';
 
 // ---- With JSON Schema ----
 

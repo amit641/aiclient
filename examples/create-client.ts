@@ -1,4 +1,4 @@
-import { createAIClient } from 'aiclient';
+import { createAIClient } from 'aiclientjs';
 
 // Create preconfigured clients for different use cases
 const gpt = createAIClient({
